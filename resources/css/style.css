@@ -1,0 +1,23 @@
+.header{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  width:auto;
+  font-family: Veranda;
+  font-size: 14px;
+  font-weight: bold;
+}
+.menubar{
+  display: span;
+}
+
+}
+
+.logo{
+  display: flex;
+}
+.logo h4{
+  color: MediumAquamarine;
+  padding-left: 4px;
+}
