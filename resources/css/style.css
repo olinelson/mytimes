@@ -40,72 +40,114 @@ body{
 
 .main{
   display: flex;
-  justify-content: ;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: ;
+  justify-content: center;
 
 }
 
 .left{
-  width: 630px;
-  border: 1px solid black;
+
+  /* border: 1px solid black; */
   margin-top: 40px;
   margin-right: 10px;
-  display: ;
+  display: flex ;
+  flex-direction: row ;
+  flex-wrap: wrap;
+  background-color: pink;
+  height:1300px;
+  padding: 0;
+  width: 630px;
+
+
+
 
 }
 
 .middle{
-  width:300px;
-  border: 1px solid black;
+
+  /* border: 1px solid black; */
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 40px;
+  display: flex;
+  flex-direction:column;
+  height:1300px;
+  background-color: yellow;
+  width: 300px;
 }
 
 .right{
-  width: 240px;
-  border: 1px solid black;
+
+  /* border: 1px solid black; */
   margin-left: 10px;
   margin-right: 0;
   margin-top: 40px;
   margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  height:1300px;
+  background-color: beige;
+  width: 240px;
+
 }
 
 #linkphoto1{
   background-image: url("../img-story-main.png");
-  border: 1px black solid;
+  /* border: 1px black solid; */
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
   width: 100%;
+  order: ;
+
 }
 #linkphoto2{
   background-image: url("../img-story-2.png");
-  border: 1px black solid;
+  /* border: 1px black solid; */
+  background-repeat: no-repeat;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  order: ;
+
 
 }
 #linkphoto3{
   background-image: url("../img-story-3.png");
-  border: 1px black solid;
+  /* border: 1px black solid; */
+  background-repeat: no-repeat;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  height: 25%;
 }
 #linkphoto4{
+  background-image: url(../img-story-1.png);
+  /* border: 1px black solid; */
+  background-repeat: no-repeat;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 20%;
 
 }
 
-#textbox1 , #textboxb , #imagebox{
+
+#textbox1 , #textbox2 , #textbox3 , #textbox4 , #textbox5 , #imagebox{
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 
 #textbox2 , #linkphoto2 , #textbox3 , #linkphoto3{
-  width: 50%;
+  width: 49%;
 }
