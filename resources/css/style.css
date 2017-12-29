@@ -42,6 +42,7 @@ body{
   display: flex;
   width: 100%;
   margin-left: 0;
+  padding: 0;
   margin-right: 0;
   padding-bottom: ;
   justify-content: center;
@@ -55,13 +56,17 @@ body{
   /* border: 1px solid black; */
   margin-top: 40px;
   margin-right: 10px;
+  margin-left:0;
   display: flex ;
   flex-direction: row ;
   flex-wrap: wrap;
   /* background-color: purple; */
-  height:1300px;
+  height:1075px;
   padding: 0;
   width: 630px;
+  justify-content: space-between;
+
+
 
 
 
@@ -76,7 +81,7 @@ body{
   margin-top: 40px;
   display: flex;
   flex-direction:column;
-  height:1300px;
+  height:1125px;
   /* background-color: yellow; */
   width: 300px;
 }
@@ -90,7 +95,7 @@ body{
   margin-right: 30px;
   display: flex;
   flex-direction: column;
-  height:1300px;
+  height:1125px;
   /* background-color: beige; */
   width: 240px;
 
@@ -106,18 +111,25 @@ body{
   font-size: 40px;
   color: white;
   width: 100%;
-  order: ;
+  text-align: center;
 
 }
 #linkphoto2{
   background-image: url("../img-story-2.png");
   /* border: 1px black solid; */
   background-repeat: no-repeat;
+  background-size: cover;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
+  text-align: center;
   color: white;
-  order: ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+
+
 
 
 }
@@ -125,21 +137,29 @@ body{
   background-image: url("../img-story-3.png");
   /* border: 1px black solid; */
   background-repeat: no-repeat;
+  background-size: cover;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   height: 25%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
 }
 #linkphoto4{
   background-image: url(../img-story-1.png);
   /* border: 1px black solid; */
   background-repeat: no-repeat;
+  background-size: cover;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   height: 20%;
+  text-align:center;
 
 }
 
@@ -189,16 +209,32 @@ body{
   padding: 0;
 }
 
-.column1 {
+.column1{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between ;
+  background-color: ;
+  width: 380px;
 
 }
 
-.column1 h1{
+.column1 h1 , h2{
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
+
+}
+
+.column1 h2{
+  padding-right: 20px;
+}
+
+.article-heading{
+ font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: black;
+
+}
 }
